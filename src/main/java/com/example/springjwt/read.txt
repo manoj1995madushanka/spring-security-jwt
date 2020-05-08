@@ -1,0 +1,14 @@
+for generate authentication token use postman and add body as below
+{
+    "username":"ffoo",
+    "password":"foo"
+}
+
+send it to localhost:8080/authenticate as post request
+
+///////////////////////////
+
+for visit other routs adds above key as a Bearer token in header key as "Authorization" and value "Bearer key"
+
+
+
